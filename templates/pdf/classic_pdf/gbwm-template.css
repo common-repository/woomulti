@@ -1,0 +1,392 @@
+/**********************
+* Template Name: Classic - PDF
+* Author: GenBuz
+* Version: 1.1
+**********************/
+
+.gbwm-css #template-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding: 0px;
+}
+
+.gbwm-css #template-sidebar {
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    order: 1;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #e5e5e5;
+}
+
+#site-template-accordion {
+	width: 100%;
+}
+
+.gbwm-css .sidebar-header {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 8px 15px 8px 15px;
+    margin: 0px;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0px solid #e5e5e5;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+
+.gbwm-css .sidebar-header.first {
+    border-top: 0px solid #e5e5e5;
+}
+
+.gbwm-css .sidebar-header.ui-accordion-header-active,
+.gbwm-css .sidebar-options.last {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.gbwm-css .sidebar-header h1 {
+	font-size:18px;
+	padding: 0px;
+}
+
+.sidebar-options {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 0px solid #ffffff;
+}
+
+.gbwm-css .sidebar-options h3 {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.gbwm-css #logo-radio {
+	width: 100%;
+}
+
+.gbwm-css .template-radio {
+	margin-bottom: 8px;
+	justify-content: flex-start;
+	height: 26px;
+	align-items: center;
+}
+
+.gbwm-css .template-radio.fontsize-container {
+	justify-content: space-between;
+	flex: 1;
+}
+
+.gbwm-css .template-radio.fontsize-container .input-box,
+.gbwm-css .template-radio.fontsize-container .fontsize-box {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+}
+
+.gbwm-css .template-radio-extra {
+	margin-bottom: 8px;
+	justify-content: left;
+	align-items: center;
+}
+
+.gbwm-css .template-radio .logo,
+.gbwm-css .template-radio .enable {
+	display: flex;
+	width: unset;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+.gbwm-css .template-radio-extra .radio-extra {
+	display: flex;
+	width: unset;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+.gbwm-css #template-sidebar #fontsize-url,
+.gbwm-css #template-sidebar #fontsize-text {
+	width: 40px;
+	margin: 0px;
+	padding: 0px 3px 0px 2px;
+	text-align: center;
+}
+
+.gbwm-css #template-sidebar .fontsize-minus,
+.gbwm-css #template-sidebar .fontsize-plus {
+	cursor: pointer;
+	color: #026b96;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.gbwm-css #template-sidebar .fontsize-minus {
+	margin-right: 5px;
+}
+
+.gbwm-css #template-sidebar .fontsize-plus {
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.gbwm-css  #template-sidebar .fontsize-minus:hover,
+.gbwm-css  #template-sidebar .fontsize-plus:hover {
+	color: #003044;
+}
+
+.gbwm-css .template-radio label {
+	display: flex;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.gbwm-css .template-radio-text label.radio-extra-label,
+.gbwm-css .template-radio-url label.radio-extra-label {
+	display: flex;
+	font-size: 15px;
+	font-weight: 300;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.gbwm-css .color-select-container {
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.gbwm-css .color-select {
+	display: flex;
+	padding: 1px;
+	border: 1px solid #e5e5e5;
+	margin-right: 15px;
+}
+
+.gbwm-css .color-selected {
+	display: flex;
+	padding: 8px;
+	margin: auto;
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
+}
+
+.gbwm-css .color-title {
+	display: flex;
+	flex: 1;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 15px;
+}
+
+.gbwm-css .sidebar-save-container {
+	width: 100%;
+	align-items: center;
+}
+
+.gbwm-css .sidebar-save-container h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
+	color: #ffffff;
+	background-color: #3b9a47;
+	border: 1px solid #4e8054;
+	padding: 6px 15px 11px 15px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.gbwm-css .sidebar-save-container h1:hover {
+	background-color: #4da558;
+	border: 1px solid #4e8054;
+}
+
+/* template preview */
+
+.gbwm-css #template-preview-container {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    order: 2;
+    flex-grow: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.gbwm-css #ajaxTemplateContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.29);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.29);
+}
+
+
+
+
+
+/**********************
+* template css
+**********************/
+
+.gbwm-css #ajaxTemplateContainer table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	border: 0px solid #e5e5e5;
+	box-shadow: unset;
+	table-layout: fixed;
+}
+
+.gbwm-css #ajaxTemplateContainer tbody {
+	border-collapse: collapse;
+	border: 0px solid #e5e5e5;
+	box-shadow: unset;
+}
+
+.gbwm-css #ajaxTemplateContainer .logo {
+	width: 480px;
+	max-width: 480px;
+	height: 90px;
+	max-height: 90px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.gbwm-css #ajaxTemplateContainer .logo .header_titles {
+	color: #026b96;
+	font-size:  24px;
+	font-weight: bold;
+}
+
+.gbwm-css #ajaxTemplateContainer .logo img {
+	max-width: 100%;
+	max-height: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.gbwm-css #ajaxTemplateContainer .details {
+	width: 200px;
+	max-width: 200px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.gbwm-css #ajaxTemplateContainer .details h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #026b96;
+}
+
+.gbwm-css #ajaxTemplateContainer .bill-to-container,
+.gbwm-css #ajaxTemplateContainer .ship-to-container {
+	width: 50%;
+	text-align: left;
+	vertical-align: top;
+}
+
+.gbwm-css #ajaxTemplateContainer .bill-to-address,
+.gbwm-css #ajaxTemplateContainer .ship-to-address {
+	font-size: 16px;
+	font-weight: bold;
+	color: #026b96;
+}
+
+.gbwm-css #ajaxTemplateContainer .bill-to-phone,
+.gbwm-css #ajaxTemplateContainer .bill-to-email {
+	font-weight: bold;
+	color: #026b96;
+}
+
+.gbwm-css #ajaxTemplateContainer .orders-table .table_header .header-cell,
+.gbwm-css #ajaxTemplateContainer td.totalamount {
+	background-color: #026b96;
+	font-weight: bold;
+	color: #ffffff !important;
+	border: 1px solid #026b96;
+}
+
+.gbwm-css #ajaxTemplateContainer th,
+.gbwm-css #ajaxTemplateContainer td {
+	text-align: left;
+	font-size: 13px !important;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.gbwm-css #ajaxTemplateContainer .orders-table .table_header th {
+	font-size: 13px;
+	height: auto;
+	padding: 7px;
+}
+
+.gbwm-css #ajaxTemplateContainer .qty {
+	width: 60px
+}
+
+.gbwm-css #ajaxTemplateContainer .description {
+}
+
+.gbwm-css #ajaxTemplateContainer .order-cell .skuspan {
+	font-weight: bold;
+}
+
+.gbwm-css #ajaxTemplateContainer .price {
+	width: 110px;
+}
+
+.gbwm-css #ajaxTemplateContainer .total {
+	width: 90px
+}
+
+.gbwm-css #ajaxTemplateContainer td.thank-you {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0px;
+}
+
+.gbwm-css #ajaxTemplateContainer td.subtitle {
+	text-align: right;
+	padding: 0px;
+	padding-right: 15px;
+	line-height: normal;
+}
+
+.gbwm-css #ajaxTemplateContainer .order-row {
+}
+
+.gbwm-css #ajaxTemplateContainer .order-cell,
+.gbwm-css #ajaxTemplateContainer td.amount {
+	border: 1px solid #e5e5e5;
+}
+
+.gbwm-css #ajaxTemplateContainer th.text-right,
+.gbwm-css #ajaxTemplateContainer td.text-right,
+.gbwm-css #ajaxTemplateContainer td.amount,
+.gbwm-css #ajaxTemplateContainer td.totalamount {
+	text-align: right;
+}

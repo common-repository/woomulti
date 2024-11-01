@@ -1,0 +1,2197 @@
+body {
+    color: #212529;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* for formating pre and error codes */
+.gbwm-css pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.gbwm-css .hideH1 {
+    font-size: 1px;
+    line-height: 1px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.gbwm-css .API_errors {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 15px;
+    border: 1px solid #f7f7f7;
+    text-align: center;
+}
+
+.gbwm-css .API_errors p {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+/* site wide */
+.no-left-margin {
+    margin-left: 0px !important;
+}
+
+.gbwm-css .bold {
+    font-weight: bold !important;
+}
+
+.gbwm-css .bold400 {
+    font-weight: 400 !important;
+}
+
+.gbwm-css .bold500 {
+    font-weight: 500 !important;
+}
+
+.gbwm-css .center {
+    text-align: center !important;
+}
+
+.gbwm-css .green-light {
+    color: #00e602 !important;
+}
+
+.gbwm-css .blue {
+    color: #026b96 !important;
+}
+
+.gbwm-css .bluebg {
+    background-color: #026b96 !important;
+}
+
+.gbwm-css .red {
+    color: #d10000 !important;
+}
+
+.gbwm-css .relative {
+    position: relative !important;
+    padding: 5px;
+}
+
+.gbwm-css .absolute {
+    position: absolute !important;
+}
+
+.gbwm-css .hide {
+    display: none;
+}
+
+.gbwm-css .show {
+    display: block;
+}
+
+.gbwm-css .tips {
+    cursor: help;
+    text-decoration: none;
+}
+
+.gbwm-css .show-mobile {
+    display: none;
+}
+
+div[class^="gbwm-css"], div[class*=" gbwm-css"] {
+    margin-top: 20px;
+}
+
+.gbwm-css .title-font, .modal-title.title-font {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.gbwm-css .SmallText {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 11px;
+    vertical-align: top;
+}
+
+.gbwm-css .notice-success, div.updated {
+    border: 1px solid #e2e2e2;
+    border-left: 4px solid;
+    border-left-color: #46b450;
+}
+
+.gbwm-css .addsites-message {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.gbwm-css p {
+    font-size: 15px;
+}
+
+.gbwm-css .border-bottom-settings {
+    border-bottom: 1px solid #e1e1e1;
+    border-color: #e1e1e1;
+}
+
+/* buttons */
+.gbwm-css .button-primary {
+    background: #026b96;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    height: 37px;
+    padding: 6px 18px;
+    border-width: 0px;
+    text-shadow: none;
+    vertical-align: top;
+}
+
+.gbwm-css .button-primary.focus, .gbwm-css .button-primary.hover, .gbwm-css .button-primary:focus, .gbwm-css .button-primary:hover {
+    background: #2282c7;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+.gbwm-css .button-info {
+    background: #5e5e5e;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    height: 37px;
+    padding: 6px 18px;
+    border-width: 0px;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.gbwm-css .button-info.focus, .gbwm-css .button-info.hover, .gbwm-css .button-info:focus, .gbwm-css .button-info:hover {
+    background: #8f8f8f;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+
+.gbwm-css .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.gbwm-css .btn:focus {
+    outline: 0;
+}
+
+.gbwm-css .btn-block {
+    display: block;
+    width: 100%;
+}
+
+.gbwm-css .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.gbwm-css .btn-primary {
+    color: #ffffff;
+    background-color: #026b95;
+    border-color: #026b95;
+    outline: 0;
+}
+
+.gbwm-css .btn-primary a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.gbwm-css .btn-secondary a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.gbwm-css .btn-success a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.gbwm-css .btn-danger a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.gbwm-css .btn-warning a {
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.gbwm-css .btn-info a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-light {
+    color: #212529;
+    background-color: #ececec;
+    border-color: #f8f9fa;
+}
+
+.gbwm-css .btn-light a {
+    color: #212529 !important;
+    text-decoration: none;
+}
+
+.gbwm-css .btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.gbwm-css .btn-dark a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.gbwm-css a:focus {
+    outline: 0;
+    box-shadow: unset;
+}
+
+/* The alert message box */
+.gbwm-css .alert {
+    padding: 1em 1.618em;
+    margin-bottom: 2.617924em;
+    margin-left: 0;
+    border-radius: 2px;
+    color: #fff;
+    clear: both;
+}
+
+.gbwm-css .alert.MessageError {
+    background-color: #e2401c;
+    border-left: .6180469716em solid rgba(0,0,0,.15);
+    color: #ffffff;
+}
+
+.gbwm-css .alert.MessageSuccess {
+    background-color: #0f834d;
+    border-left: .6180469716em solid rgba(0,0,0,.15);
+    color: #ffffff !important;
+}
+
+.gbwm-css .alert.MessageSuccess a {
+    color: #ffee89 !important;
+}
+
+.gbwm-css .alert.MessageSuccess a:hover {
+    color: #ffffff !important;
+}
+
+.gbwm-css .alert.MesageInfo {
+    background-color: #3d9cd2;
+    border-left: .6180469716em solid rgba(0,0,0,.15);
+    color: #ffffff;
+}
+
+/* The close button */
+.gbwm-css .closebtn {
+    margin-left: 15px;
+    margin-top: -5px;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.gbwm-css .closebtn:hover {
+    color: black;
+}
+
+/* table css */
+.gbwm-css table.widefat.gbwmtable {
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    display: table;
+}
+
+.gbwm-css table.widefat.gbwmtable tbody {
+    border: 1px solid #ebebeb;
+}
+
+.gbwm-css table.widefat.gbwmtable tbody td {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.gbwm-css table.gbwmtable thead tr.gbwm-table-header, .gbwm-css table.gbwmtable tfoot tr.gbwm-table-footer {
+}
+
+.gbwm-css table.gbwmtable tfoot tr.gbwm-table-footer th {
+}
+
+.gbwm-css table.gbwmtable thead tr.gbwm-table-header th, .gbwm-css table.gbwmtable tfoot tr.gbwm-table-footer th {
+    height: auto;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gbwm-css table.gbwmtable thead tr.gbwm-table-header-grey th, .gbwm-css table.gbwmtable tfoot tr.gbwm-table-footer-grey th {
+    background-color: #f5f5f5;
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gbwm-css .gbwmtrboddy td {
+    font-size: 15px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-checkbox {
+    width: 50px;
+}
+
+.gbwm-css .gbwmtable .gbwm-table-header input, .gbwm-css .gbwmtable .gbwm-table-footer input {
+    vertical-align: baseline;
+}
+
+.gbwm-css table.widefat.gbwmtable tbody td.gbwm-checkbox input {
+    vertical-align: baseline;
+    margin-left: 7px;
+}
+
+/* make small buttons in the table */
+.gbwm-css table td .btn {
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+    outline: 0;
+}
+
+.gbwm-css .tbfooter {
+    background-color: #f9f9f9;
+    font-weight: 500;
+}
+
+.gbwm-css .alt-row {
+    background-color: #f9f9f9;
+}
+
+/* modal css */
+.gbwm-css .modal-body p {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.gbwm-css .modal-body label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.gbwm-css .simplemodal-data .form-group {
+    margin-bottom: 0px;
+}
+
+.gbwm-css #ModalEditCourier, .gbwm-css #ModalEditSite, .gbwm-css #ModalEditOrder {
+    display: none;
+}
+
+.gbwm-css #ModalEditCourier:after, .gbwm-css #ModalEditSite:after, .gbwm-css #ModalEditOrder:after {
+    clear: both;
+}
+
+/* Overlay */
+.gbwm-css .simplemodal-overlay {
+    background-color: #000;
+}
+
+/* Container */
+.gbwm-css .simplemodal-container {
+    width: 500px !important;
+    height: auto !important;
+    background-color: #fff;
+    border: 4px solid #f4f4f4;
+    padding: 12px;
+    margin-top: 32px !important;
+}
+
+.gbwm-css .simplemodal-wrap {
+    overflow: visible !important;
+    position: relative;
+}
+
+.gbwm-css .simplemodal-container .simplemodal-data {
+    padding: 8px;
+}
+
+/*
+.gbwm-css .simplemodal-container a.modalCloseImg {
+ background:url(images/x.png) no-repeat;
+ width:25px;
+ height:29px;
+ display:inline;
+ z-index:3200;
+ position:absolute;
+ top:-15px;
+ right:-16px;
+ cursor:pointer;
+}*/
+.gbwm-css .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.gbwm-css .modal-footer {
+    padding: 1rem;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    border-top: 1px solid #e9ecef;
+    margin-top: 20px;
+}
+
+/* forms */
+.gbwm-css .form-group {
+    margin-bottom: 1rem;
+}
+
+.gbwm-css .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.gbwm-css .form-control.radio-extra {
+    display: block;
+    width: 202px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.gbwm-css .statusForm label {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.gbwm-css select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
+
+/* pagination-buttons */
+.gbwm-Pagination {
+    margin-top: 6px;
+}
+
+.gbwm-css .page-link {
+    color: #026b96;
+    background-color: #fff;
+    border: 1px solid #94c2d8;
+}
+
+.gbwm-css .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #026b96;
+    border-color: #026b96;
+}
+
+.gbwm-css .page-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #026b96;
+    border-color: #026b96;
+}
+
+.gbwm-css .page-link:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+
+.gbwm-css .elipses {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 0px;
+    float: left;
+}
+
+.gbwm-css .gbwm-Pagination ul.pagination {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.gbwm-css .gbwm-Pagination ul.pagination li {
+    float: left;
+    margin-right: 5px;
+}
+
+.gbwm-css .gbwm-Pagination ul.pagination li a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* Misc code */
+.gbwm-css .columnsx4 {
+    width: 25%;
+    float: left;
+}
+
+.gbwm-css .columnsx4 label {
+    font-size: 15px;
+}
+
+.gbwm-css .input100 {
+    width: 100px;
+    margin-top: 0px;
+}
+
+.gbwm-css .input250 {
+    width: 250px;
+    margin-top: 5px;
+}
+
+/* flex / div code */
+.gbwm-css .ct-new-columns {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.gbwm-css .ct-div-block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.gbwm-css .ct-new-columns > .ct-div-block {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+/**********************
+* Orders Section
+**********************/
+/* dashboard */
+.gbwm-css .dashboard-subheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gbwm-css .dashboard-subheading p {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 13px;
+    margin-bottom: 36px;
+}
+
+.gbwm-css .dashboard-subheading h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+.gbwm-css .dashboard-options {
+    justify-content: space-between;
+}
+
+.gbwm-css #dashboard-sites {
+}
+
+.gbwm-css #dashboard-couriers {
+    /* flex: 1 0 33%; */
+    /* position: relative; */
+}
+
+.gbwm-css #dashboard-settings {
+}
+
+.gbwm-css .dashbox {
+    padding: 0px !important;
+    flex-basis: 30%;
+}
+
+.gbwm-css .third {
+    width: 33%;
+}
+
+.gbwm-css .shadow-box-wrapper {
+    flex: 1 1 auto;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.05);
+}
+
+.gbwm-css .shadow-box-wrapper:not(.ct-section), .gbwm-css .atomic-content-23-wrapper.ct-section .ct-section-inner-wrap {
+    flex-direction: column;
+    align-items: center;
+}
+
+.gbwm-css .shadow-box-title {
+    color: #026b96;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.gbwm-css .shadow-box-text p {
+    color: #3b3c38;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px
+}
+
+.gbwm-css .atomic-small-button-outline:hover {
+    color: #2282c7;
+}
+
+.gbwm-css .atomic-small-button-outline {
+    font-weight: 700;
+    color: #026b96 !important;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 2px solid #026b96;
+}
+
+/* menu */
+.gbwm-css .tab-menu {
+    display: none;
+}
+
+.gbwm-css .tabbed-content-container .options-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Dropdown status */
+.gbwm-css .select-title {
+    display: block;
+}
+
+.gbwm-css .select-box {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e5e5e5;
+    border-radius: .25rem;
+    border-top-left-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    display: none;
+    list-style: none;
+    min-width: 10rem;
+    top: 29px;
+    left: -1px;
+    z-index: 10;
+}
+
+.gbwm-css .select-box a {
+    color: #212529;
+    margin: 4px;
+}
+
+.gbwm-css .select-box a:hover {
+    background-color: #026b96;
+    color: #ffffff;
+}
+
+.gbwm-css .download.select-box {
+    min-width: 13rem;
+}
+
+.gbwm-css .download.select-box .downloadSmall {
+    font-size: 14px;
+    color: #1bd036;
+}
+
+.gbwm-css .select-select {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    clear: both;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.gbwm-css .select-select:last-child {
+    border-bottom: none;
+}
+
+/* jquery vertical tabs */
+.gbwm-css .tabbed {
+    background-color: #ffffff;
+    padding: 0px;
+    display: flex;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.gbwm-css .tabbed-nav {
+    background: #f8f8f8;
+    width: 300px;
+    border: unset;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.gbwm-css .tabbed-nav li {
+    border-width: 0px;
+    border-bottom: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    font-size: 16px;
+    float: unset;
+    margin: 0px;
+    line-height: 1;
+    background: #ffffff;
+    font-weight: unset;
+}
+
+.gbwm-css .tabbed-nav li:hover {
+    background: #2378b3;
+    color: #ffffff;
+}
+
+.gbwm-css .tabbed-nav li:last-child {
+}
+
+.gbwm-css .tabbed-nav a {
+    color: #555555;
+    display: block;
+    padding: 11px !important;
+    float: unset !important;
+    outline: 0;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.gbwm-css .tabbed-nav a:hover {
+    color: #ffffff;
+}
+
+.gbwm-css .tabbed-nav .active {
+    position: relative;
+    background: #026b96;
+    font-weight: unset;
+}
+
+.gbwm-css .tabbed-nav .active a {
+    color: #ffffff;
+    float: unset;
+}
+
+.gbwm-css .MenuToggle {
+    float: right;
+    text-align: right;
+    padding: 0px 4px 4px 4px;
+}
+
+.gbwm-css .MenuToggle:hover {
+    color: #44fa58;
+}
+
+.gbwm-css .tabbed-content-container {
+    background-color: #ffffff;
+    flex-grow: 1;
+}
+
+.gbwm-css .tabbed-results {
+    background: white;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.gbwm-css .LoadingSitesAjax {
+    text-align: center;
+    width: 100%;
+    margin-top: 9px;
+    font-size: 28px;
+    font-weight: 400;
+    height: 100px;
+}
+
+.gbwm-css .orders-title {
+    margin-top: 25px;
+    padding: 15px;
+    padding-bottom: 17px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gbwm-css .orders-title span {
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    display: block;
+}
+
+.gbwm-css .orders-title h1 {
+    padding: 0px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.gbwm-css .orders-title h2 {
+    font-weight: 300;
+    color: #ffffff;
+    margin: 20px 0px 0px 0px;
+}
+
+/* download/status/pagination */
+.gbwm-css #fill_container {
+    padding: 0px;
+    flex-grow: 1;
+}
+
+.gbwm-css #orders_toggle_container {
+    align-items: flex-start;
+    position: relative;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.gbwm-css #orders_download_container {
+    position: relative;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+
+.gbwm-css h4.select-title {
+    padding: 7px 10px 4px 10px;
+    margin: 0px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 300;
+    z-index: 100;
+}
+
+#downloadOrdersModal h1 {
+    line-height: normal;
+}
+
+.gbwm-css h4.toggle-nav {
+    padding: 7px 12px 7px 11px;
+    margin: 0px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.gbwm-css #orders_status_container {
+    position: relative;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.gbwm-css #orders_pagination_container {
+    position: relative;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-id {
+    width: 80px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-customer {
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-date {
+    width: 120px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-total {
+    width: 100px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-transactionID {
+    width: 170px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-status {
+    width: 115px;
+}
+
+.gbwm-css .order-status {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: 1.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: -.25em 0;
+    cursor: inherit!important;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.gbwm-css .order-status.status-completed {
+    background: #c8d7e1;
+    color: #2e4453
+}
+
+.gbwm-css .order-status.status-on-hold {
+    background: #f8dda7;
+    color: #94660c
+}
+
+.gbwm-css .order-status.status-failed {
+    background: #eba3a3;
+    color: #761919
+}
+
+.gbwm-css .order-status.status-processing {
+    background: #c6e1c6;
+    color: #5b841b
+}
+
+.gbwm-css .order-status.status-trash {
+    background: #eba3a3;
+    color: #761919
+}
+
+.gbwm-css .order-status>span {
+    margin: 0 .5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.gbwm-css .gbwmtable .gbwm-order-list-actions {
+    width: 110px;
+    text-align: right;
+}
+
+/* Preview/Edit Order */
+.gbwm-css .OrderViewTD {
+}
+
+.gbwm-css #preview-content {
+    flex: 2.5;
+    padding: 10px;
+}
+
+.gbwm-css #headline-order-number {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.gbwm-css #preview-address-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.gbwm-css .preview-top-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gbwm-css #order_number_container {
+    flex: 1;
+    padding-left: 0px;
+}
+
+.gbwm-css #close_preview_container {
+    flex: 1;
+    padding-right: 0px;
+    align-items: flex-end;
+}
+
+.gbwm-css .tracking_header_container, .products_ordered_header_container, .shipping_lines_header_container {
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.gbwm-css .shipping_lines_header_container {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+.gbwm-css .shipping_lines_header_container h4 {
+    margin: 0px;
+    font-weight: 300;
+}
+
+.gbwm-css .totals_header_container {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.gbwm-css .totals_header_container h4 {
+    margin: 0px;
+    font-weight: 300;
+}
+
+.gbwm-css .products_ordered_container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.gbwm-css .product_image {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border: 2px solid #e8e8e8;
+    background: #f8f8f8;
+    color: #ccc;
+    position: relative;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+}
+
+.gbwm-css .product_image img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.gbwm-css .tracking_header {
+    flex: .5;
+    font-size: 13px;
+    margin: auto;
+    line-height: 17px;
+    text-align: center;
+}
+
+.gbwm-css .tracking_header_value {
+    flex: 2;
+    font-size: 13px;
+    margin: auto;
+    line-height: 17px;
+}
+
+.gbwm-css .product_details, .gbwm-css .product_details_header {
+    flex: 5;
+    padding-bottom: 0px;
+}
+
+.gbwm-css .product_details_header {
+    padding-left: 0px;
+}
+
+.gbwm-css .product_details {
+    padding: 0px 5px 0px 0px !important;
+    margin: auto !important;
+}
+
+.gbwm-css .product_details p {
+    margin: 0px !important;
+}
+
+.gbwm-css .product_cost, .gbwm-css .product_cost_header {
+    flex: 1;
+    padding: 0px 5px 0px 5px !important;
+    margin: auto !important;
+}
+
+.gbwm-css .product_qty, .gbwm-css .product_qty_header {
+    flex: 1;
+    padding: 0px 5px 0px 5px !important;
+    align-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+.gbwm-css .product_total, .gbwm-css .product_total_header {
+    flex: 1;
+    padding: 0px 5px 0px 5px !important;
+    margin: auto !important;
+    align-items: flex-end;
+}
+
+.gbwm-css .tracking_header_container.ct-new-columns > .ct-div-block, .gbwm-css .products_ordered_header_container.ct-new-columns > .ct-div-block {
+    padding: 5px;
+}
+
+.gbwm-css .shipping_lines_container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gbwm-css .shipping_lines_container .method_title {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    flex: 7;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.gbwm-css .shipping_totals_container {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    justify-content: space-between;
+}
+
+.gbwm-css .shipping_totals_container .shipping_line_total {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.gbwm-css .shipping_totals_container .shipping_title {
+    flex: 7;
+    align-items: flex-end;
+    padding-bottom: 0px;
+}
+
+/* shipping addresses tabs */
+
+.gbwm-css .address-tabs .ui-widget-header {
+    background: #ffffff;
+}
+
+.gbwm-css #HelpTabs.ui-widget-header {background: unset;}
+
+.gbwm-css .address-tabs {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #e5e5e5;
+    box-shadow: unset;
+}
+
+.gbwm-css #AddressTabs {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid #e5e5e5;
+    box-shadow: unset;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.gbwm-css #AddressTabs li.address-tab {border: unset;background: unset;font-weight: unset;color: unset;}
+
+.gbwm-css #AddressTabs li.address-tab.ui-state-default a {
+    background-color: #f6f6f6;
+    color: #026b94 !important;
+    padding: 7px 18px;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    box-shadow: none;
+    margin-right: 5px;
+    border: 1px solid #026b94;
+}
+
+.gbwm-css #AddressTabs li.address-tab.ui-tabs-active.ui-state-active a {
+    background-color: #026b95;
+    color: #ffffff !important;
+    padding: 7px 18px;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    box-shadow: none;
+    margin-right: 5px;
+    border: 1px solid #026b94;
+}
+
+.gbwm-css .address-title {
+    padding: 5px 0px 15px 0px;
+}
+
+.gbwm-css #billing_first_name_container, .gbwm-css #billing_last_name_container, .gbwm-css #billing_address_1_container, .gbwm-css #billing_address_2_container, .gbwm-css #billing_city_container, .gbwm-css #billing_state_container, .gbwm-css #billing_postcode_container, .gbwm-css #billing_country_container, .gbwm-css #shipping_first_name_container, .gbwm-css #shipping_last_name_container, .gbwm-css #shipping_address_1_container, .gbwm-css #shipping_address_2_container, .gbwm-css #shipping_city_container, .gbwm-css #shipping_state_container, .gbwm-css #shipping_postcode_container, .gbwm-css #shipping_country_container {
+    width: 50.00%;
+    margin-bottom: 5px;
+}
+
+.gbwm-css #billing_first_name_container, .gbwm-css #billing_address_1_container, .gbwm-css #billing_city_container, .gbwm-css #billing_postcode_container, .gbwm-css #shipping_first_name_container, .gbwm-css #shipping_address_1_container, .gbwm-css #shipping_city_container, .gbwm-css #shipping_postcode_container {
+    padding-right: 5px
+}
+
+.gbwm-css #billing_last_name_container, .gbwm-css #billing_address_2_container, .gbwm-css #billing_state_container, .gbwm-css #billing_country_container, .gbwm-css #shipping_last_name_container, .gbwm-css #shipping_address_2_container, .gbwm-css #shipping_state_container, .gbwm-css #shipping_country_container {
+    padding-left: 5px
+}
+
+.gbwm-css #billing_company_container, .gbwm-css #billing_submit_container, .gbwm-css #shipping_company_container, .gbwm-css #shipping_submit_container {
+    width: 100.00%;
+    margin-bottom: 5px
+}
+
+.gbwm-css #billing_submit_container, .gbwm-css #shipping_submit_container {
+    width: 100.00%;
+    margin-top: 15px;
+}
+
+.gbwm-css .oxy-billing-form .ct-new-columns > .ct-div-block, .gbwm-css .oxy-shipping-form .ct-new-columns > .ct-div-block {
+    padding: 0px;
+}
+
+.gbwm-css .oxy-billing-form input, .gbwm-css .oxy-shipping-form input {
+    width: 100%;
+}
+
+.gbwm-css .oxy-billing-form label, .gbwm-css .oxy-shipping-form label {
+    margin-bottom: 1px;
+    font-weight: 400;
+}
+
+/**********************
+* Sites Section
+**********************/
+.gbwm-css td.SiteURL {
+    width: auto;
+    font-size: 16px;
+}
+
+.gbwm-css td.SiteCK {
+    width: 250px;
+    font-size: 16px;
+}
+
+.gbwm-css td.SiteCS {
+    width: 250px;
+    font-size: 16px;
+}
+
+.gbwm-css td.SiteActions {
+    width: 150px;
+    font-size: 16px;
+}
+
+.gbwm-css .gbwmtable.addsite .SiteURLAdd {
+    width: 300px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addsite .SiteCKAdd {
+    width: 400px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addsite .SiteCSAdd {
+    width: 400px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addsite .SiteActiveAdd {
+    width: 100px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addsite .SiteURLAdd input, .gbwm-css .gbwmtable.addsite .SiteCKAdd input, .gbwm-css .gbwmtable.addsite .SiteCSAdd input, .gbwm-css .gbwmtable.addsite .SiteActiveAdd select, .gbwm-css .gbwmtable.addcourier .CourierTitleAdd input, .gbwm-css .gbwmtable.addcourier .CourierURLAdd input, .gbwm-css .gbwmtable.addcourier .CourierActiveAdd select {
+    width: 100%;
+}
+
+.gbwm-css #ModalEditSite .site-modal {
+    justify-content: space-between;
+}
+
+.gbwm-css #ModalEditSite .site-modal .modal-woosite {
+    flex-basis: 45%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gbwm-css #ModalEditSite .site-modal .modal-active {
+    flex-basis: 45%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gbwm-css .gbwmtable .SiteWooSite {
+    width: 80px;
+    text-align: center;
+}
+
+.gbwm-css .gbwmtable .SiteActive {
+    width: 80px;
+    text-align: center;
+}
+
+.gbwm-css .gbwmtable.manage-sites .gbwm-actions {
+    width: 110px;
+    text-align: center;
+}
+
+.gbwm-css .SetTemplateTD {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0px;
+}
+
+/**********************
+* Courier Section
+**********************/
+.gbwm-css .gbwmtable.addcourier .CourierTitleAdd {
+    width: 300px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addcourier .CourierURLAdd {
+    width: 500px;
+    padding-right: 20px;
+}
+
+.gbwm-css .gbwmtable.addcourier .CourierActiveAdd {
+    width: 100px;
+    padding-right: 20px;
+}
+
+/**********************
+* Site/Courier Sections
+**********************/
+.gbwm-css .addsite-container, .gbwm-css .addcourier-container {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    display: flex;
+    flex-direction: column;
+}
+
+.gbwm-css .addsite-header, .gbwm-css .addcourier-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: auto;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gbwm-css .addsite-header-child, .gbwm-css .addcourier-header-child {
+}
+
+.gbwm-css .addsite-body, .gbwm-css .addcourier-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.gbwm-css .addsite-body-child, .gbwm-css .addcourier-body-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.gbwm-css .addsite-body-child input, .gbwm-css .addsite-body-child select, .gbwm-css .addcourier-body-child input, .gbwm-css .addcourier-body-child select {
+}
+
+.gbwm-css .addcourier-title {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.gbwm-css .addsite-url, .gbwm-css .addcourier-url {
+    flex: 1.3;
+    padding-right: 20px;
+}
+
+.gbwm-css .addsite-ck, .gbwm-css .addsite-cs {
+    flex: 4;
+    padding-right: 20px;
+}
+
+.gbwm-css .addsite-woosite {
+    flex: 1.2;
+    padding-right: 20px;
+}
+
+.gbwm-css .addsite-active, .gbwm-css .addcourier-active {
+    flex: 1;
+}
+
+.gbwm-css .addsite-footer, .gbwm-css .addcourier-footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
+
+
+
+
+/**********************
+* downloads Section
+**********************/
+
+.gbwm-css .gbwmtable .filedate {
+    width: 190px;
+    text-align: left;
+}
+
+.gbwm-css .gbwmtable .filetype {
+    width: 110px;
+    text-align: left;
+}
+
+.gbwm-css .gbwmtable .filesize {
+    width: 110px;
+    text-align: left;
+}
+
+.gbwm-css .gbwmtable .gbwm-file-list-actions {
+    width: 90px;
+    text-align: center;
+}
+
+
+
+
+
+/**********************
+* Templates Section
+**********************/
+.no-left-margin {
+    margin-left: 0px;
+}
+
+.gbwm-css .tabs-wrapper.ui-widget.ui-widget-content {
+    border: 0px solid #e5e5e5;
+    box-shadow: unset;
+    background: unset;
+}
+
+.gbwm-css #word-templates {
+    justify-content: space-between;
+}
+
+.gbwm-css .template-wrapper {
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    width: calc(50% - 12px);
+    padding: 10px;
+    max-height: 200px;
+}
+
+.gbwm-css .ct-new-columns.template-wrapper > .ct-div-block {
+    padding: 5px;
+}
+
+.gbwm-css .template-image {
+    flex: 1;
+    /* justify-content: center; */
+}
+
+.gbwm-css .template-image .ct-image {
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #ececec;
+    padding: 5px;
+}
+
+.gbwm-css .template-info {
+    text-align: left;
+    flex: 2.5;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gbwm-css .template-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #026b96;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    flex: 0.7;
+}
+
+.gbwm-css .template-description {
+    flex: 2.5;
+}
+
+.gbwm-css .template-description p {
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.gbwm-css .template-options {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.gbwm-css .template-screenshots, .gbwm-css .template-activate {
+    flex: 1;
+    align-items: center;
+}
+
+/**********************
+* Settings Section
+**********************/
+.gbwm-css .align-items-center {
+    align-items: center;
+}
+
+.gbwm-css .gbwmtable .settings-setting {
+    vertical-align: middle;
+}
+
+.gbwm-css #gbwm-settings-setting {
+    width: 20%;
+    padding-left: 10px;
+}
+
+.gbwm-css #gbwm-settings-description {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.gbwm-css .gbwmtable .settings-description h3 {
+    padding-top: 4px;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.gbwm-css .gbwmtable .settings-description p {
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: normal;
+}
+
+.gbwm-css .gbwmtable .settings-description strong {
+    font-weight: 600;
+}
+
+.gbwm-css #gbwm_default_courier {
+    width: 150px;
+}
+
+.gbwm-css .gbwmtable.settings .submit {
+    padding: 0px;
+    margin: 5px;
+}
+
+/**********************
+* Help Sections
+**********************/
+/* tabs */
+.gbwm-css .help-tabs {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #e5e5e5;
+    box-shadow: unset;
+    background: unset;
+}
+
+.gbwm-css #HelpTabs {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid #e5e5e5;
+    box-shadow: unset;
+    align-items: flex-end;
+}
+
+.gbwm-css #HelpTabs li.help-tab.ui-state-default a {
+    background-color: #ffffff;
+    color: #026b94 !important;
+    padding: 10px;
+    display: block;
+    border: 1px solid #026b95;
+    margin-left: -1px;
+    outline: 0;
+    text-decoration: none;
+    box-shadow: none;
+    z-index: 10;
+}
+
+.gbwm-css #HelpTabs li.help-tab.ui-tabs-active.ui-state-active a {
+    background-color: #026b95;
+    color: #ffffff !important;
+    padding: 12px 10px 12px 10px;
+    margin-left: -1px;
+    margin-right: 0px;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    box-shadow: none;
+    z-index: 1000;
+}
+
+.gbwm-css .help-tabs ul:first-child#HelpTabs {
+    margin-left: 1px;
+}
+
+.gbwm-css .help-tab {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    border: unset;
+    background: unset;
+}
+
+.gbwm-css .tab-content {
+    margin-top: 0px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.gbwm-css .help-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/**
+* @media break points
+**/
+/* Max width 1024px */
+@media (max-width: 1024px) {
+    .gbwm-css .gbwmtable.manage-sites .SiteCK, .gbwm-css .gbwmtable.manage-sites .SiteCS {
+        display:none;
+    }
+}
+
+/* end 1024px break point */
+/* Max width 800px */
+@media (max-width: 800px) {
+    .gbwm-css .tabbed {
+        display: block;
+    }
+
+    .gbwm-css .tabbed-nav {
+        width: 100%;
+    }
+
+    .gbwm-css .dashboard-options {
+    }
+
+    .gbwm-css .third {
+        width: 100%;
+    }
+
+    /* menu */
+    .gbwm-css .tab-menu {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .gbwm-css #orders_toggle_container {
+        display: none;
+    }
+
+    .gbwm-css h4.toggle-nav {
+        padding: 10px 14px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .gbwm-css .orders-title {
+        margin: 0px -26px 25px -26px;
+    }
+
+    .gbwm-css .column-transaction_id, .gbwm-css .gbwm-order-list-transactionID {
+        display: none;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-actions {
+        width: 90px;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-total {
+        width: 100px;
+    }
+}
+
+/* end 800px break point */
+/* Max width 768px */
+@media (max-width: 768px) {
+    .gbwm-css .dashboard-subheading {
+        display: block;
+        flex-direction: unset;
+        align-items: unset;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* SITES SECTION */
+    .gbwm-css .addsite-container, .gbwm-css .addcourier-container {
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .gbwm-css .addsite-header, .gbwm-css .addcourier-header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        flex: 1;
+        order: 1;
+    }
+
+    .gbwm-css .addsite-header-child, .gbwm-css .addcourier-header-child {
+        flex: initial;
+        padding: 0px;
+    }
+
+    .gbwm-css .addsite-body, .gbwm-css .addcourier-body {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        justify-content: flex-end;
+        height: auto;
+        padding: 10px;
+        background-color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        order: 2;
+    }
+
+    .gbwm-css .addsite-body-child, .gbwm-css .addcourier-body-child {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: unset;
+        padding: 0px;
+    }
+
+    .gbwm-css .addsite-body-child >span, .gbwm-css .addcourier-body-child >span {
+        margin-bottom: 7px;
+    }
+
+    .gbwm-css .addsite-body-child input, .gbwm-css .addsite-body-child select, .gbwm-css .addcourier-body-child input, .gbwm-css .addcourier-body-child select {
+    }
+
+    .gbwm-css .addsite-url, .gbwm-css .addcourier-url {
+    }
+
+    .gbwm-css .addsite-ck, .gbwm-css .addsite-cs {
+    }
+
+    .gbwm-css .addsite-active, .gbwm-css .addcourier-active {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .gbwm-css .addsite-footer, .gbwm-css .addcourier-footer {
+        flex: 1;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px;
+        border-top: 0px solid #ddd;
+        border-left: 1px solid #ddd;
+        background: #f5f5f5;
+        order: 3;
+    }
+
+    .gbwm-css .addsite-footer input, .gbwm-css .addcourier-footer input {
+        margin: auto !important;
+        margin-bottom: 5px !important;
+        margin-top: 5px !important;
+    }
+}
+
+/* end 768px break point */
+/* Max width 600px */
+@media (max-width: 600px) {
+}
+
+/* end 600px break point */
+/* Max width 480px */
+@media (max-width: 480px) {
+    /* dashboard section */ .gbwm-css .dashboard-options {
+        flex-direction: column;
+    }
+
+    .gbwm-css .dashbox {
+        margin-top: 20px;
+    }
+
+    .gbwm-css .tabbed-results {
+        padding: 0px;
+    }
+
+    .gbwm-css .orders-title {
+        margin: 0px -1px 25px -1px;
+    }
+
+    .gbwm-css .orders-title h1 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .gbwm-css h4.select-title {
+        padding: 13px 10px 10px 10px;
+        margin: 0px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 1.5em;
+        font-weight: 300;
+        z-index: 100;
+    }
+
+    .gbwm-css .tabbed-content-container .options-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gbwm-css #orders_status_container {
+        padding: 0px;
+        margin-bottom: 15px;
+        flex-basis: 100%;
+    }
+
+    .gbwm-css .select-box {
+        min-width: 100%;
+        top: 43px;
+        z-index: 30;
+    }
+
+    .gbwm-css #orders_pagination_container {
+        padding: 0px;
+    }
+
+    .gbwm-css .gbwm-Pagination {
+    }
+
+    .gbwm-css .column-total, .gbwm-css .gbwm-order-list-total {
+        display: none;
+    }
+
+    .gbwm-css .column-date, .gbwm-css .column-status, .gbwm-css .column-actions {
+        display: none;
+    }
+
+    .gbwm-css .widefat.gbwmtable.manage-sites .column-actions {
+        display: table-cell;
+    }
+
+    .gbwm-css .widefat.gbwmtable.addsite {
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-checkbox {
+        width: 40px;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-table-header input, .gbwm-css .gbwmtable .gbwm-table-footer input {
+        vertical-align: baseline;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .gbwm-css table.widefat.gbwmtable tbody td.gbwm-order-list-checkbox input {
+        vertical-align: baseline;
+        margin-left: 0px;
+    }
+
+    .gbwm-css .column-customer {
+        text-align: center;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-date {
+        width: unset;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-status {
+        width: unset;
+    }
+
+    .gbwm-css .gbwmtable .gbwm-order-list-actions {
+        width: 30px;
+    }
+
+    .gbwm-css .order-status>span {
+        width: 8px;
+        height: 20px;
+    }
+
+    .gbwm-css .gbwm-order-list-actions .btn.btn-xs.view, .gbwm-css .gbwm-order-list-actions .btn.btn-xs.CourierEdit {
+        margin-bottom: 5px;
+    }
+
+    .gbwm-css .hide-mobile {
+        display: none;
+    }
+
+    .gbwm-css .show-mobile {
+        display: table-cell;
+    }
+
+    .gbwm-css .simplemodal-container {
+        width: 100% !important;
+        height: auto !important;
+        background-color: #fff;
+        border: 4px solid #f4f4f4;
+        padding: 12px;
+        margin-top: 47px !important;
+        z-index: 100000 !important;
+    }
+
+    /* SITES SECTION */
+    .gbwm-css .addsite-container, .gbwm-css .addcourier-container {
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .gbwm-css .addsite-header, .gbwm-css .addcourier-header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        flex: 30%;
+        order: 1;
+    }
+
+    .gbwm-css .addsite-header-child, .gbwm-css .addcourier-header-child {
+        flex: initial;
+        padding: 0px;
+    }
+
+    .gbwm-css .addsite-body, .gbwm-css .addcourier-body {
+        display: flex;
+        flex-direction: column;
+        flex: 65%;
+        justify-content: flex-end;
+        height: auto;
+        padding: 10px;
+        background-color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        order: 2;
+    }
+
+    .gbwm-css .addsite-body-child, .gbwm-css .addcourier-body-child {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: unset;
+        padding: 0px;
+    }
+
+    .gbwm-css .addsite-body-child >span, .gbwm-css .addcourier-body-child >span {
+        margin-bottom: 7px;
+    }
+
+    .gbwm-css .addsite-body-child input, .gbwm-css .addsite-body-child select, .gbwm-css .addcourier-body-child input, .gbwm-css .addcourier-body-child select {
+    }
+
+    .gbwm-css .addsite-url, .gbwm-css .addcourier-url {
+    }
+
+    .gbwm-css .addsite-ck, .gbwm-css .addsite-cs {
+    }
+
+    .gbwm-css .addsite-active, .gbwm-css .addcourier-active {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .gbwm-css .addsite-footer, .gbwm-css .addcourier-footer {
+        flex: 1;
+        padding: 10px;
+        padding-top: 14px;
+        border-top: 1px solid #ddd;
+        background: #f5f5f5;
+        order: 3;
+    }
+
+    .gbwm-css .addsite-footer input, .gbwm-css .addcourier-footer input {
+        margin: 0 !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-right: 10px !important;
+    }
+
+    .gbwm-css .manage-couriers .CourierURL {
+        display: none;
+    }
+
+    .gbwm-css .manage-couriers .column-actions {
+        display: block;
+    }
+
+    .gbwm-css .manage-couriers .CourierActive {
+        width: 60px;
+    }
+
+    .gbwm-css .manage-couriers .gbwm-order-list-actions {
+        width: 65px;
+    }
+}
+
+/* end 480px break point */
+.gbwm-css .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
